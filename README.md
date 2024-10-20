@@ -1,28 +1,39 @@
----
-title: "Introduction to scoredec"
-author: "Christos Adam"
-output:
-  rmarkdown::html_vignette:
-    number_sections: false
-  word_document: default
-  pdf_document: default
-fontsize: 11pt
-urlcolor: blue
-linkcolor: blue
-link-citations: true
-header-includes: \usepackage{float}
-vignette: >
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteIndexEntry{Introduction to scoredec}
-  %\VignetteEncoding{UTF-8}
----
-
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, eval=FALSE)
-```
+<!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/scoredec)](https://CRAN.R-project.org/package=scoredec)
+[![Developmental version](https://img.shields.io/badge/devel%20version-0.1.1-blue.svg)](https://github.com/cadam00/scoredec)
+[![R-CMD-check](https://github.com/cadam00/scoredec/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/cadam00/scoredec/actions/workflows/R-CMD-check.yaml)
+  [![Codecov test coverage](https://codecov.io/gh/cadam00/scoredec/branch/main/graph/badge.svg)](https://app.codecov.io/gh/cadam00/scoredec?branch=main)
+  [![DOI](https://zenodo.org/badge/840736839.svg)](https://zenodo.org/doi/10.5281/zenodo.13743047)
+<!-- badges: end -->
 
 # **Introduction to scoredec**
+
+## **Installation**
+
+You can install the [(CRAN)](https://cran.r-project.org/) version of
+**scoredec** like so:
+``` r
+install.packages("scoredec")
+```
+
+Alternatively, you can install the development version of **scoredec** using:
+``` r
+if (!require(remotes)) install.packages("remotes")
+remotes::install_github("cadam00/scoredec")
+```
+
+## **Citation**
+
+To cite the official [(CRAN)](https://cran.r-project.org/) version, please use:
+
+> Adam, C. (2024). scoredec: S-Core Graph Decomposition.
+R package version 0.1.1. Available at
+https://doi.org/10.32614/CRAN.package.scoredec.
+
+Alternatively, to cite the latest development version, please use:
+
+> Adam, C. (2024). scoredec: S-Core Graph Decomposition (v0.1.1). Zenodo. https://doi.org/10.5281/zenodo.13743047.
+
 
 ## **s-core algorithm**
 
@@ -39,7 +50,7 @@ package is has some minor but significant differences, allowing it to be much
 more time and memory efficient.
 
 <p align="center">
-  <img src="fig1.png"
+  <img src="man/figures/fig1.png"
   alt="Fig. 1: s-core algorithm flowchart."
   width="50%" />
 </p>
@@ -88,7 +99,7 @@ plot(g,
 ```
 
 <p align="center">
-  <img src="fig2.png"
+  <img src="man/figures/fig2.png"
   alt="Fig. 2: Example undirected graph with connectivity"
   width="50%" />
 </p>
@@ -122,7 +133,7 @@ plot(g,
      )
 ```
 <p align="center">
-  <img src="fig3.png"
+  <img src="man/figures/fig3.png"
   alt="Fig. 3: Example undirected graph with vertices sized by their s-coreness"
   width="50%" />
 </p>
@@ -187,7 +198,7 @@ plot(g,
      )
 ```
 <p align="center">
-  <img src="fig4.png"
+  <img src="man/figures/fig4.png"
   alt="Fig. 4: Example directed graph with connectivity
 lines per direction sized by their weights."
   width="50%" />
@@ -226,7 +237,7 @@ plot(g,
 ```
 
 <p align="center">
-  <img src="fig5.png"
+  <img src="man/figures/fig5.png"
   alt="Fig. 5: Total degree s-coreness."
   width="50%" />
 </p>
@@ -254,7 +265,7 @@ plot(g,
      )
 ```
 <p align="center">
-  <img src="fig6.png"
+  <img src="man/figures/fig6.png"
   alt="Fig. 6: In-degree s-coreness."
   width="50%" />
 </p>
@@ -284,7 +295,7 @@ plot(g,
      )
 ```
 <p align="center">
-  <img src="fig7.png"
+  <img src="man/figures/fig7.png"
   alt="Fig. 7: Out-degree s-coreness."
   width="50%" />
 </p>

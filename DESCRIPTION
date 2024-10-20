@@ -1,7 +1,7 @@
 Package: scoredec
 Type: Package
 Title: S-Core Graph Decomposition
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person("Christos", "Adam", role = c("aut", "cre"),
            email = "econp266@econ.soc.uoc.gr"))
 Maintainer: Christos Adam <econp266@econ.soc.uoc.gr>
@@ -21,7 +21,7 @@ Config/testthat/edition: 3
 RoxygenNote: 7.3.2
 VignetteBuilder: knitr, rmarkdown
 NeedsCompilation: yes
-Packaged: 2024-09-18 14:26:57 UTC; Administrator
+Packaged: 2024-10-20 19:08:34 UTC; Administrator
 Author: Christos Adam [aut, cre]
 Repository: CRAN
-Date/Publication: 2024-09-19 15:10:02 UTC
+Date/Publication: 2024-10-20 20:20:01 UTC
