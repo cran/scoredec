@@ -1,11 +1,11 @@
-5fbd2229f5c224f39a5c3c679f54fbd5 *DESCRIPTION
+96ab643f30ef52505697b16b27f2e927 *DESCRIPTION
 09a4792e7bcc40cc7d035f29348051f7 *NAMESPACE
-acd01f24aee025a4e0c03c2c217bb2e1 *NEWS.md
+7463ce918a2e66e7ce7df157b794bf0f *NEWS.md
 bdd5cb936328f68e257992a58a9b569d *R/RcppExports.R
 d0b4ffcd6bbb78b8af89bc607086b191 *R/score_functions.R
-e6cd4d61fb7643ed39df5dfb865b2cb8 *README.md
-b54db8794555342c4feee5fe0b1b8f5b *build/partial.rdb
-c7ac8cc540d1c892eb543fb0955c2993 *build/vignette.rds
+399a2be04dfa9c8a1756bcee6847f869 *README.md
+1dda19015f0aa969acee990c150e3ac9 *build/partial.rdb
+fd439b260b350fe9425a15e5d42fe73b *build/vignette.rds
 0fd414942ee21b96b62963e66bfdaa3e *inst/doc/Introduction.R
 403a5fbd8574c3a14f4a723a63203a53 *inst/doc/Introduction.Rmd
 39559655388a6dacd4dc0e6594ec1918 *inst/doc/Introduction.html
